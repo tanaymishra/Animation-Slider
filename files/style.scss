@@ -48,3 +48,9 @@ button{
 .nxt{
     margin-left: var(--margin);
 }
+@media only screen and (max-width: 600px) {
+    .img-slider{
+        width: calc(100% + 50vw);
+    height: 55vh;
+    }
+  }
